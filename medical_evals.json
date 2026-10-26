@@ -1,0 +1,12 @@
+[
+  {
+    "id": "med_eval_001",
+    "domain": "Pharmacology / Cardiology",
+    "clinical_prompt": "Explain the mechanism of action of ACE inhibitors and their effect on serum potassium levels.",
+    "ai_response_a": "ACE inhibitors block the conversion of Angiotensin I to Angiotensin II, reducing vasoconstriction and aldosterone secretion. Because aldosterone is suppressed, potassium excretion by the kidneys decreases, which can lead to hyperkalemia.",
+    "ai_response_b": "ACE inhibitors block aldosterone receptors directly in the distal tubule. This increases potassium excretion by the kidneys, which commonly causes hypokalemia in patients.",
+    "preferred_response": "ai_response_a",
+    "factuality_status": "Response B contains critical pharmacological hallucinations.",
+    "audit_justification": "Response A accurately describes the indirect suppression of aldosterone via ACE inhibition and the resulting risk of hyperkalemia. Response B incorrectly claims direct aldosterone receptor blockade (confusing ACE inhibitors with spironolactone) and wrongly states it causes hypokalemia instead of hyperkalemia."
+  }
+]
